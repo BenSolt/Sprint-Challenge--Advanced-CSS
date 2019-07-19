@@ -1,3 +1,12 @@
+.colorfont {
+  color: black;
+}
+.textdecor {
+  text-decoration: none;
+}
+.padding {
+  padding: 15px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -162,17 +171,18 @@ p {
 }
 header {
   justify-content: center;
-  background: #F1F1F1;
 }
 header .title {
   font-size: 3.2rem;
   display: flex;
   justify-content: center;
   padding: 10px;
+  background: #F1F1F1;
 }
 header .navBtns {
   display: flex;
   justify-content: center;
+  background: #F1F1F1;
 }
 header .navBtns a {
   text-decoration: none;
@@ -248,9 +258,10 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
-    display: flex;
+    margin-top: 30px;
     flex-direction: column-reverse;
     width: 100%;
+    padding: 10px 10px;
   }
 }
 .home .walk .walk-text {
@@ -269,16 +280,19 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .walk .walk-text .btn .btn2 {
+  font: white;
   background: #22283A;
   height: 25px;
+  display: block;
   width: 32%;
 }
-.home .walk .walk-text .btn:hover {
-  background: gray;
+.home .walk .walk-text .btn .btn2:hover {
+  background: white;
+  font: black;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-text .btn {
+  .home .walk .walk-text .btn .btn2 {
     width: 100%;
     padding: 10px;
     background: #22283A;
@@ -286,8 +300,9 @@ footer {
     display: flex;
     justify-content: center;
   }
-  .home .walk .walk-text .btn:hover {
-    background: gray;
+  .home .walk .walk-text .btn .btn2:hover {
+    background: white;
+    font: black;
   }
 }
 .home .walk .walk-img {
@@ -299,6 +314,8 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-bottom: 15px;
+    margin-left: 4%;
   }
 }
 .home .walk .walk-img img {

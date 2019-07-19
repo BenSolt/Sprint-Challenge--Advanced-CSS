@@ -2,7 +2,7 @@
      
 header {
     justify-content: center;
-    background: @nav-border;
+    
     
 
   
@@ -12,18 +12,19 @@ header {
             display: flex;
             justify-content: center;
             padding: 10px;
+            background: @nav-border;
     }
 
     .navBtns{
             display: flex;
             justify-content: center;
-            
+            background: @nav-border;
 
             a{
 
-            text-decoration: none;
-            padding: 15px;
-            color: black;
+            .textdecor();
+            .padding();
+            .colorfont();
        
             }
             
