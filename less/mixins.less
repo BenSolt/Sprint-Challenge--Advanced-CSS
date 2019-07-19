@@ -1,1 +1,35 @@
 // Mixins Here
+
+// create 2 mixins
+
+
+// Setup of mixin
+
+// .boder{
+//     border: 4px solid black;
+// }
+
+
+
+//  Mixin example{
+//     color: red;
+//     .border();
+// }
+
+//  
+
+// parametric mixin
+
+  .custom-button(@btn-bg-color, @width){
+    background: @btn-bg-color;
+    width: @width;
+    height: 25px;
+    font-size: 2rem;
+    border-radius: 5px;
+    
+  
+      &:hover{
+      background: white;
+      color:@bg-color; 
+     }
+ }
