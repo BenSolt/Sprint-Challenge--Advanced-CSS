@@ -161,29 +161,8 @@ p {
   margin: 0 auto;
 }
 header {
-  justify-content: center;
-  background: #F1F1F1;
-}
-header .title {
-  font-size: 3.2rem;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-header .navBtns {
-  display: flex;
-  justify-content: center;
-}
-header .navBtns a {
-  text-decoration: none;
-  padding: 15px;
-  color: black;
-}
-.btnSignup {
-  background: #22283A;
-}
-.btnSignup:hover {
-  background: #F6F6F6;
+  border-bottom: 1px solid black;
+  background: #23293B;
 }
 footer {
   color: #22283B;
@@ -245,4 +224,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+html {
+  background: red;
 }
