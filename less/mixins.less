@@ -1,1 +1,50 @@
 // Mixins Here
+
+// create 2 mixins
+
+
+// Setup of mixin
+
+
+
+.colorfont{
+   color:black;
+}
+
+.textdecor{
+  text-decoration: none;
+}
+
+.padding{
+  padding: 15px;
+}
+
+
+// parametric mixin
+
+.custom-btn(@color, @height) {
+  background: @color;
+height: @height;
+
+
+&:hover{
+       
+  background: white;
+  color: black;
+
+         }
+}
+
+
+
+  
+    // background: @btn-bg-color;
+    // width: @width;
+    // height: 25px;
+    // font-size: 2rem;
+    // border-radius: 5px;
+    
+  
+    
+ 
+
