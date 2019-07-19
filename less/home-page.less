@@ -100,6 +100,15 @@
     display: flex;
     justify-content: center;
 
+
+    @media @phone {
+      display: flex;
+      flex-direction: column-reverse;
+    width: 100%;
+    
+}
+
+
     .walk-text {
       width: 50%;
 
@@ -108,7 +117,7 @@
             display: flex;
             flex-direction: column;
           width: 100%;
-          background: lightblue;
+         
       }
       
 
@@ -118,18 +127,31 @@
 
       p {
         margin-bottom: 26px;
+
+       
+
       }
 
 
        .btn {
-          width: 100px;
-          background: @btn-bg-color;
+      
+       .custom-btn(@btn-bg-color, 25px);
+      
+       width: 32%;
+       
+      
 
           @media @phone {
             
             width: 100%;
+            padding: 10px;
+            .custom-btn(@btn-bg-color, 45px);
+            display: flex;
+            justify-content: center;
             
           }
+
+       
 
        }
 
@@ -137,15 +159,27 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+    
+      @media @phone {
+        display: flex;
+        justify-content: center;
+        width: 100%;
       
+            }
+
+
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
 
-    }
+       
+      
 
-    }
+            }
+
+      }
 
   
   
