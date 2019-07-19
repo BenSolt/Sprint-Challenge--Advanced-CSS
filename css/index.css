@@ -281,7 +281,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn .btn2 {
-  font: white;
+  color: white;
   background: #22283A;
   height: 25px;
   display: block;
@@ -289,7 +289,7 @@ footer {
 }
 .home .walk .walk-text .btn .btn2:hover {
   background: white;
-  font: black;
+  color: black;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn .btn2 {
@@ -302,7 +302,7 @@ footer {
   }
   .home .walk .walk-text .btn .btn2:hover {
     background: white;
-    font: black;
+    color: black;
   }
 }
 .home .walk .walk-img {
